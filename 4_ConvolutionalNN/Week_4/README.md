@@ -1,7 +1,7 @@
 # Face Recognition
 ### Verification vs Recognition
 >
-![alt text](images/vr.png "vr")
+![alt text](../images/vr.png "vr")
 
 
 ### One Shot Learning
@@ -15,7 +15,7 @@ This isn't a good approach.
 <br>
 Here comes One Shot : Learning similarity function.
 >
-![alt text](images/smf.png "smf")
+![alt text](../images/smf.png "smf")
 
 
 But how to calculate d?
@@ -23,7 +23,7 @@ But how to calculate d?
 
 ### Siamese network
 >
-![alt text](images/sm.png "sm")
+![alt text](../images/sm.png "sm")
 
 
 ### Triple loss
@@ -34,19 +34,19 @@ Triple - We will be looking at three images, simaltaneously
 - Positive
 - Negative
 >
-![alt text](images/tripleloss.png "tripleloss")
+![alt text](../images/tripleloss.png "tripleloss")
 
 >
 
 **Loss Function**
 >
-![alt text](images/formulaetl.png "formulaetl")
+![alt text](../images/formulaetl.png "formulaetl")
 
 
 How will we choose parameters - A,P,N
 We can't chose them randomly. 
 >
-<!-- ![alt text](images/choosetl.png "choosetl")
+<!-- ![alt text](../images/choosetl.png "choosetl")
  -->
 
 ### Binary Classification
@@ -58,12 +58,12 @@ Face Verification's another method.
 # Neural Style Transfer
 What is NST?
 >
-![alt text](images/nst.png "nst")
+![alt text](../images/nst.png "nst")
 
 **How better is the generated image?**
 Define cost function : J
 >
-![alt text](images/nstCF.png "nstCF")
+![alt text](../images/nstCF.png "nstCF")
 
 In order to actaullly generate new image, do the following :
 >generatedI
@@ -74,19 +74,19 @@ There are two things :
 
 Overall cost function of NST :
 >
-![alt text](images/overallCF.png "overallCF")
+![alt text](../images/overallCF.png "overallCF")
 
 The first part is chosen somewhere in the middle, neither to shallow, nor to deep.
 ### Content Cost function
 >
-![alt text](images/ccf.png "ccf")
+![alt text](../images/ccf.png "ccf")
 
 ### Style Cost function
 >
-![alt text](images/scf1.png "scf1")
+![alt text](../images/scf1.png "scf1")
 
 >
-![alt text](images/scf2.png "scf2")
+![alt text](../images/scf2.png "scf2")
 
 
 
@@ -94,17 +94,17 @@ If they are highly correlated, G will be high. Otherwise, it will be small.
 
 Style Matrix :
 >
-![alt text](images/smatrix.png "smatrix")
+![alt text](../images/smatrix.png "smatrix")
 
 
 ### 1D and 3D generalizations
 **1D** :
 >
-![alt text](images/1D.png "1D")
+![alt text](../images/1D.png "1D")
 
 
 **3D:**
 >
-![alt text](images/3D.png "3D")
+![alt text](../images/3D.png "3D")
 
 
