@@ -11,10 +11,9 @@ Feeding images into CNN and using softmax funciton as an output, will not work h
 Two reasons :
 - Dataset is very small so it will not be able to predict only with one image during testing.
 - Suppose new person came,  then do we need to retrain our model?
-This isn't a good approach.
-<br>
-Here comes One Shot : Learning similarity function.
->
+This isn't a good approach.Here comes One Shot : Learning similarity function
+
+
 ![alt text](../images/smf.png "smf")
 
 
